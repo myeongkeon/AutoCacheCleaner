@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cache Wipe</string>
+    <string name="a11y_description">Apenas toca por si no botão [Limpar cache] da app Definições. Não lê nem guarda outros ecrãs e não envia nada para fora do dispositivo.</string>
+
+    <string name="disclosure_title">Antes de começar</string>
+    <string name="disclosure_does_title">O que esta app faz</string>
+    <string name="disclosure_does_body">• Abre Definições &gt; Aplicações &gt; Armazenamento e toca em [Limpar cache] por si.\n• Usa o \"Acesso a dados de utilização\" para mostrar a cache de cada app.\n• Para isso precisa da permissão de \"Acessibilidade\".</string>
+    <string name="disclosure_doesnt_title">O que esta app não faz</string>
+    <string name="disclosure_doesnt_body">• Não vê nenhum ecrã além das Definições.\n• Não guarda nem envia o conteúdo do ecrã.\n• Nunca apaga dados de apps (sessões, fotos, definições) — apenas a cache.</string>
+    <string name="disclosure_stop_hint">Enquanto trabalha, pode parar a qualquer momento com o botão [Parar] no topo do ecrã.</string>
+    <string name="disclosure_accept">Concordar e continuar</string>
+
+    <string name="home_need_usage">A permissão 1 abaixo é necessária para mostrar o tamanho da cache.</string>
+    <string name="home_loading">A verificar a cache das apps…</string>
+    <string name="home_total">Cache total: %s</string>
+    <string name="home_apps_with_cache">Apps com cache: %1$d (excluídas: %2$d)</string>
+    <string name="protection_on">A Proteção avançada está ativa e bloqueia a limpeza automática. Desative-a por momentos em Definições &gt; Segurança e privacidade.</string>
+    <string name="perm_title">Permissões necessárias</string>
+    <string name="perm_usage">1. Permitir acesso a dados de utilização</string>
+    <string name="perm_a11y">2. Ativar o Cache Wipe na Acessibilidade</string>
+    <string name="pro_active">Pro · sem anúncios · modo rápido ilimitado</string>
+    <string name="pro_upsell">Sem anúncios + modo rápido ilimitado → Pro (compra única)</string>
+    <string name="fast_permission">Permitir modo rápido (Shizuku)</string>
+    <string name="fast_title">Modo rápido (Shizuku)</string>
+    <string name="fast_desc">Limpa toda a cache, incluindo apps do sistema, em segundos</string>
+    <string name="clean_all">Limpar toda a cache</string>
+    <string name="clean_all_fast">Limpar toda a cache (rápido)</string>
+    <string name="clean_selected">Limpar cache selecionada</string>
+
+    <string name="auto_title">Limpeza automática (Pro)</string>
+    <string name="auto_off">Desligada</string>
+    <string name="auto_daily">Diária</string>
+    <string name="auto_weekly">Semanal</string>
+    <string name="auto_desc">Com o modo rápido limpa em segundo plano; caso contrário, recebe um lembrete para tocar.</string>
+
+    <string name="back">← Voltar</string>
+    <string name="select_title_pick">Escolha as apps a limpar</string>
+    <string name="select_title_exclude">Apps a ignorar em \"Limpar tudo\"</string>
+    <string name="tab_selected">Selecionadas %d</string>
+    <string name="tab_excluded">Excluídas %d</string>
+    <string name="select_clean">Limpar %1$d selecionadas (%2$s)</string>
+
+    <string name="run_fast_running">Limpeza rápida…</string>
+    <string name="run_running">A limpar a cache…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">Parado</string>
+    <string name="run_done">Concluído</string>
+    <string name="run_freed">%s libertados</string>
+    <string name="run_fast_summary">A cache de todas as apps, incluindo as do sistema, foi limpa</string>
+    <string name="run_summary">Limpas %1$d · já vazias %2$d · falhadas %3$d</string>
+    <string name="run_failed_title">Apps falhadas</string>
+    <string name="run_retry">Tentar novamente %d falhadas</string>
+    <string name="done">Concluído</string>
+    <string name="stop_screen_locked">Parou porque o ecrã se desligou ou bloqueou. Mantenha o ecrã ligado e tente novamente.</string>
+    <string name="fast_failed">A limpeza rápida falhou. Desative o modo rápido e tente novamente.</string>
+
+    <string name="fast_dialog_title">Limpeza rápida</string>
+    <string name="fast_dialog_text">Veja um anúncio para usar a limpeza rápida hoje.\nO Pro não tem anúncios nem limite.</string>
+    <string name="fast_dialog_watch">Ver anúncio e limpar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="used_up_title">Já usou a limpeza rápida gratuita de hoje</string>
+    <string name="used_up_text">Limpe no modo normal ou obtenha o Pro para limpezas rápidas ilimitadas.</string>
+    <string name="used_up_normal">Limpeza normal</string>
+    <string name="buy_pro">Comprar Pro</string>
+    <string name="toast_enable_a11y">Primeiro ative o Cache Wipe nas definições de Acessibilidade.</string>
+    <string name="toast_nothing">Nenhuma app tem cache para limpar.</string>
+    <string name="toast_ad_loading">A carregar o anúncio…</string>
+    <string name="toast_ad_closed">Veja o anúncio até ao fim para usar a limpeza rápida.</string>
+    <string name="toast_pro_only">O widget, o atalho rápido e a limpeza automática são funcionalidades Pro.</string>
+    <string name="billing_unavailable">Não foi possível ligar à loja. Só é possível comprar na app instalada pela Play Store.</string>
+    <string name="billing_not_found">Produto não encontrado. Poderá comprá-lo quando a app estiver na loja.</string>
+
+    <string name="overlay_progress">A limpar a cache %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">A tentar novamente apps falhadas %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">Não foi possível tocar automaticamente.\nToque em [Limpar cache] no ecrã</string>
+    <string name="stop">Parar</string>
+    <string name="stopping">A parar…</string>
+
+    <string name="notif_channel">Limpeza automática</string>
+    <string name="notif_auto_done">Limpeza automática: %s libertados</string>
+    <string name="notif_reminder_title">Está na hora de limpar a cache</string>
+    <string name="notif_reminder_text">Toque para limpar a cache de todas as apps.</string>
+    <string name="tile_label">Limpar cache</string>
+    <string name="widget_label">Limpar cache</string>
+    <string name="widget_desc">Limpe a cache de todas as apps com um toque</string>
+</resources>

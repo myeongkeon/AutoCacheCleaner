@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cache Wipe</string>
+    <string name="a11y_description">Solo pulsa por ti el botón [Borrar caché] de la app Ajustes. No lee ni guarda otras pantallas y no envía nada fuera del dispositivo.</string>
+
+    <string name="disclosure_title">Antes de empezar</string>
+    <string name="disclosure_does_title">Lo que hace esta app</string>
+    <string name="disclosure_does_body">• Abre Ajustes &gt; Aplicaciones &gt; Almacenamiento y pulsa [Borrar caché] por ti.\n• Usa el \"Acceso a datos de uso\" para mostrar la caché de cada app.\n• Para ello necesita el permiso de \"Accesibilidad\".</string>
+    <string name="disclosure_doesnt_title">Lo que no hace esta app</string>
+    <string name="disclosure_doesnt_body">• No mira ninguna pantalla que no sea Ajustes.\n• No guarda ni envía el contenido de la pantalla.\n• Nunca borra datos de apps (sesiones, fotos, ajustes), solo la caché.</string>
+    <string name="disclosure_stop_hint">Mientras trabaja, puedes detenerla en cualquier momento con el botón [Detener] de la parte superior.</string>
+    <string name="disclosure_accept">Aceptar y continuar</string>
+
+    <string name="home_need_usage">Se necesita el permiso 1 de abajo para mostrar el tamaño de la caché.</string>
+    <string name="home_loading">Comprobando la caché de las apps…</string>
+    <string name="home_total">Caché total: %s</string>
+    <string name="home_apps_with_cache">Apps con caché: %1$d (excluidas: %2$d)</string>
+    <string name="protection_on">La Protección avanzada está activada y bloquea la limpieza automática. Desactívala un momento en Ajustes &gt; Seguridad y privacidad.</string>
+    <string name="perm_title">Faltan permisos</string>
+    <string name="perm_usage">1. Permitir acceso a datos de uso</string>
+    <string name="perm_a11y">2. Activar Cache Wipe en Accesibilidad</string>
+    <string name="pro_active">Pro · sin anuncios · modo rápido ilimitado</string>
+    <string name="pro_upsell">Sin anuncios + modo rápido ilimitado → Pro (pago único)</string>
+    <string name="fast_permission">Permitir modo rápido (Shizuku)</string>
+    <string name="fast_title">Modo rápido (Shizuku)</string>
+    <string name="fast_desc">Borra toda la caché, incluidas las apps del sistema, en segundos</string>
+    <string name="clean_all">Borrar toda la caché</string>
+    <string name="clean_all_fast">Borrar toda la caché (rápido)</string>
+    <string name="clean_selected">Borrar caché seleccionada</string>
+
+    <string name="auto_title">Limpieza automática (Pro)</string>
+    <string name="auto_off">No</string>
+    <string name="auto_daily">Diaria</string>
+    <string name="auto_weekly">Semanal</string>
+    <string name="auto_desc">Con el modo rápido limpia en segundo plano; si no, recibirás un aviso para pulsar.</string>
+
+    <string name="back">← Atrás</string>
+    <string name="select_title_pick">Elige las apps que borrar</string>
+    <string name="select_title_exclude">Apps que omitir en \"Borrar todo\"</string>
+    <string name="tab_selected">Elegidas %d</string>
+    <string name="tab_excluded">Excluidas %d</string>
+    <string name="select_clean">Borrar %1$d elegidas (%2$s)</string>
+
+    <string name="run_fast_running">Limpieza rápida…</string>
+    <string name="run_running">Borrando caché…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">Detenido</string>
+    <string name="run_done">Listo</string>
+    <string name="run_freed">%s liberados</string>
+    <string name="run_fast_summary">Se borró la caché de todas las apps, incluidas las del sistema</string>
+    <string name="run_summary">Borradas %1$d · ya vacías %2$d · fallidas %3$d</string>
+    <string name="run_failed_title">Apps fallidas</string>
+    <string name="run_retry">Reintentar %d fallidas</string>
+    <string name="done">Hecho</string>
+    <string name="stop_screen_locked">Se detuvo porque la pantalla se apagó o bloqueó. Mantén la pantalla encendida y vuelve a intentarlo.</string>
+    <string name="fast_failed">La limpieza rápida falló. Desactiva el modo rápido y vuelve a intentarlo.</string>
+
+    <string name="fast_dialog_title">Limpieza rápida</string>
+    <string name="fast_dialog_text">Mira un anuncio para usar la limpieza rápida hoy.\nPro no tiene anuncios ni límite.</string>
+    <string name="fast_dialog_watch">Ver anuncio y limpiar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="used_up_title">Ya usaste la limpieza rápida gratis de hoy</string>
+    <string name="used_up_text">Limpia en modo normal o consigue Pro para limpiezas rápidas ilimitadas.</string>
+    <string name="used_up_normal">Limpieza normal</string>
+    <string name="buy_pro">Comprar Pro</string>
+    <string name="toast_enable_a11y">Primero activa Cache Wipe en los ajustes de Accesibilidad.</string>
+    <string name="toast_nothing">Ninguna app tiene caché que borrar.</string>
+    <string name="toast_ad_loading">Cargando el anuncio…</string>
+    <string name="toast_ad_closed">Mira el anuncio completo para usar la limpieza rápida.</string>
+    <string name="toast_pro_only">El widget, el acceso rápido y la limpieza automática son funciones Pro.</string>
+    <string name="billing_unavailable">No se pudo conectar con la tienda. Solo se puede comprar en la app instalada desde Play Store.</string>
+    <string name="billing_not_found">No se encontró el producto. Podrás comprarlo cuando la app esté en la tienda.</string>
+
+    <string name="overlay_progress">Borrando caché %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">Reintentando apps fallidas %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">No se pudo pulsar automáticamente.\nPulsa [Borrar caché] en la pantalla</string>
+    <string name="stop">Detener</string>
+    <string name="stopping">Deteniendo…</string>
+
+    <string name="notif_channel">Limpieza automática</string>
+    <string name="notif_auto_done">Limpieza automática: %s liberados</string>
+    <string name="notif_reminder_title">Hora de borrar la caché</string>
+    <string name="notif_reminder_text">Pulsa para borrar la caché de todas las apps.</string>
+    <string name="tile_label">Borrar caché</string>
+    <string name="widget_label">Borrar caché</string>
+    <string name="widget_desc">Borra la caché de todas las apps con un toque</string>
+</resources>

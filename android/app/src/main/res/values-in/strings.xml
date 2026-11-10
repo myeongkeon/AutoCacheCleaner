@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cache Wipe</string>
+    <string name="a11y_description">Hanya mengetuk tombol [Hapus memori] di aplikasi Pengaturan untuk Anda. Tidak membaca atau menyimpan layar lain dan tidak mengirim apa pun keluar dari perangkat.</string>
+
+    <string name="disclosure_title">Sebelum mulai</string>
+    <string name="disclosure_does_title">Yang dilakukan aplikasi ini</string>
+    <string name="disclosure_does_body">• Membuka Pengaturan &gt; Aplikasi &gt; Penyimpanan dan mengetuk [Hapus memori] untuk Anda.\n• Memakai \"Akses penggunaan\" untuk menampilkan ukuran cache tiap aplikasi.\n• Untuk itu dibutuhkan izin \"Aksesibilitas\".</string>
+    <string name="disclosure_doesnt_title">Yang tidak dilakukan aplikasi ini</string>
+    <string name="disclosure_doesnt_body">• Tidak melihat layar selain Pengaturan.\n• Tidak menyimpan atau mengirim isi layar.\n• Tidak pernah menghapus data aplikasi (login, foto, pengaturan) — hanya cache.</string>
+    <string name="disclosure_stop_hint">Selama berjalan, Anda bisa menghentikannya kapan saja dengan tombol [Berhenti] di bagian atas layar.</string>
+    <string name="disclosure_accept">Setuju dan lanjutkan</string>
+
+    <string name="home_need_usage">Izin nomor 1 di bawah diperlukan untuk menampilkan ukuran cache.</string>
+    <string name="home_loading">Memeriksa ukuran cache aplikasi…</string>
+    <string name="home_total">Total cache: %s</string>
+    <string name="home_apps_with_cache">Aplikasi dengan cache: %1$d (dikecualikan: %2$d)</string>
+    <string name="protection_on">Perlindungan Lanjutan aktif sehingga pembersihan otomatis diblokir. Nonaktifkan sebentar di Pengaturan &gt; Keamanan dan privasi.</string>
+    <string name="perm_title">Izin diperlukan</string>
+    <string name="perm_usage">1. Izinkan akses penggunaan</string>
+    <string name="perm_a11y">2. Aktifkan Cache Wipe di Aksesibilitas</string>
+    <string name="pro_active">Pro · tanpa iklan · mode cepat tanpa batas</string>
+    <string name="pro_upsell">Hapus iklan + mode cepat tanpa batas → Pro (sekali beli)</string>
+    <string name="fast_permission">Izinkan mode cepat (Shizuku)</string>
+    <string name="fast_title">Mode cepat (Shizuku)</string>
+    <string name="fast_desc">Menghapus semua cache, termasuk aplikasi sistem, dalam hitungan detik</string>
+    <string name="clean_all">Hapus semua cache</string>
+    <string name="clean_all_fast">Hapus semua cache (cepat)</string>
+    <string name="clean_selected">Hapus cache terpilih</string>
+
+    <string name="auto_title">Bersih otomatis (Pro)</string>
+    <string name="auto_off">Mati</string>
+    <string name="auto_daily">Harian</string>
+    <string name="auto_weekly">Mingguan</string>
+    <string name="auto_desc">Dengan mode cepat, pembersihan berjalan di latar belakang; jika tidak, Anda mendapat pengingat untuk diketuk.</string>
+
+    <string name="back">← Kembali</string>
+    <string name="select_title_pick">Pilih aplikasi yang akan dihapus</string>
+    <string name="select_title_exclude">Aplikasi yang dilewati saat \"Hapus semua\"</string>
+    <string name="tab_selected">Dipilih %d</string>
+    <string name="tab_excluded">Dikecualikan %d</string>
+    <string name="select_clean">Hapus %1$d terpilih (%2$s)</string>
+
+    <string name="run_fast_running">Membersihkan cepat…</string>
+    <string name="run_running">Menghapus cache…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">Dihentikan</string>
+    <string name="run_done">Selesai</string>
+    <string name="run_freed">%s dikosongkan</string>
+    <string name="run_fast_summary">Cache semua aplikasi, termasuk aplikasi sistem, sudah dihapus</string>
+    <string name="run_summary">Dihapus %1$d · sudah kosong %2$d · gagal %3$d</string>
+    <string name="run_failed_title">Aplikasi yang gagal</string>
+    <string name="run_retry">Coba lagi %d yang gagal</string>
+    <string name="done">Selesai</string>
+    <string name="stop_screen_locked">Dihentikan karena layar mati atau terkunci. Biarkan layar menyala lalu coba lagi.</string>
+    <string name="fast_failed">Pembersihan cepat gagal. Matikan mode cepat lalu coba lagi.</string>
+
+    <string name="fast_dialog_title">Bersih cepat</string>
+    <string name="fast_dialog_text">Tonton satu iklan untuk memakai bersih cepat hari ini.\nPro tanpa iklan dan tanpa batas.</string>
+    <string name="fast_dialog_watch">Tonton iklan dan bersihkan</string>
+    <string name="cancel">Batal</string>
+    <string name="used_up_title">Bersih cepat gratis hari ini sudah dipakai</string>
+    <string name="used_up_text">Bersihkan dengan mode normal, atau beli Pro untuk bersih cepat tanpa batas.</string>
+    <string name="used_up_normal">Bersih normal</string>
+    <string name="buy_pro">Beli Pro</string>
+    <string name="toast_enable_a11y">Aktifkan Cache Wipe di pengaturan Aksesibilitas terlebih dahulu.</string>
+    <string name="toast_nothing">Tidak ada aplikasi dengan cache untuk dihapus.</string>
+    <string name="toast_ad_loading">Memuat iklan…</string>
+    <string name="toast_ad_closed">Tonton iklan sampai selesai untuk memakai bersih cepat.</string>
+    <string name="toast_pro_only">Widget, tombol cepat, dan bersih otomatis adalah fitur Pro.</string>
+    <string name="billing_unavailable">Tidak dapat terhubung ke toko. Pembelian hanya bisa di aplikasi yang dipasang dari Play Store.</string>
+    <string name="billing_not_found">Produk tidak ditemukan. Bisa dibeli setelah aplikasi ada di toko.</string>
+
+    <string name="overlay_progress">Menghapus cache %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">Mencoba lagi aplikasi gagal %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">Tidak dapat mengetuk otomatis.\nKetuk [Hapus memori] di layar</string>
+    <string name="stop">Berhenti</string>
+    <string name="stopping">Menghentikan…</string>
+
+    <string name="notif_channel">Bersih otomatis</string>
+    <string name="notif_auto_done">Bersih otomatis: %s dikosongkan</string>
+    <string name="notif_reminder_title">Saatnya menghapus cache</string>
+    <string name="notif_reminder_text">Ketuk untuk menghapus cache semua aplikasi.</string>
+    <string name="tile_label">Hapus cache</string>
+    <string name="widget_label">Hapus cache</string>
+    <string name="widget_desc">Satu ketukan untuk menghapus cache semua aplikasi</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cache Wipe</string>
+    <string name="a11y_description">Only taps the [Clear cache] button in the Settings app for you. It does not read or store other screens and sends nothing off your device.</string>
+
+    <!-- Disclosure -->
+    <string name="disclosure_title">Before you start</string>
+    <string name="disclosure_does_title">What this app does</string>
+    <string name="disclosure_does_body">• Opens Settings &gt; Apps &gt; Storage and taps [Clear cache] for you.\n• Uses \"Usage access\" to show how much cache each app has.\n• Needs the \"Accessibility\" permission to do this.</string>
+    <string name="disclosure_doesnt_title">What this app does not do</string>
+    <string name="disclosure_doesnt_body">• It does not look at any screen other than Settings.\n• It does not store screen content or send it anywhere.\n• It never deletes app data (logins, photos, settings) — only cache.</string>
+    <string name="disclosure_stop_hint">While it works, you can stop at any time with the [Stop] button at the top of the screen.</string>
+    <string name="disclosure_accept">Agree and continue</string>
+
+    <!-- Home -->
+    <string name="home_need_usage">Permission 1 below is needed to show cache sizes.</string>
+    <string name="home_loading">Checking app cache sizes…</string>
+    <string name="home_total">Total cache: %s</string>
+    <string name="home_apps_with_cache">Apps with cache: %1$d (excluded: %2$d)</string>
+    <string name="protection_on">Advanced Protection is on, so automatic cleaning is blocked. Turn it off for a moment in Settings &gt; Security and privacy.</string>
+    <string name="perm_title">Permissions needed</string>
+    <string name="perm_usage">1. Allow usage access</string>
+    <string name="perm_a11y">2. Turn on Cache Wipe in Accessibility</string>
+    <string name="pro_active">Pro · no ads · unlimited fast mode</string>
+    <string name="pro_upsell">Remove ads + unlimited fast mode → Pro (one-time purchase)</string>
+    <string name="fast_permission">Allow fast mode (Shizuku)</string>
+    <string name="fast_title">Fast mode (Shizuku)</string>
+    <string name="fast_desc">Clears all cache, system apps included, in seconds</string>
+    <string name="clean_all">Clear all cache</string>
+    <string name="clean_all_fast">Clear all cache (fast)</string>
+    <string name="clean_selected">Clear selected cache</string>
+
+    <!-- Auto clean (Pro) -->
+    <string name="auto_title">Auto clean (Pro)</string>
+    <string name="auto_off">Off</string>
+    <string name="auto_daily">Daily</string>
+    <string name="auto_weekly">Weekly</string>
+    <string name="auto_desc">With fast mode it cleans in the background; otherwise you get a reminder to tap.</string>
+
+    <!-- Select -->
+    <string name="back">← Back</string>
+    <string name="select_title_pick">Choose apps to clear</string>
+    <string name="select_title_exclude">Apps to skip in \"Clear all\"</string>
+    <string name="tab_selected">Selected %d</string>
+    <string name="tab_excluded">Excluded %d</string>
+    <string name="select_clean">Clear %1$d selected (%2$s)</string>
+
+    <!-- Run / result -->
+    <string name="run_fast_running">Fast cleaning…</string>
+    <string name="run_running">Clearing cache…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">Stopped</string>
+    <string name="run_done">All done</string>
+    <string name="run_freed">%s freed</string>
+    <string name="run_fast_summary">Cleared the cache of every app, system apps included</string>
+    <string name="run_summary">Cleared %1$d · already empty %2$d · failed %3$d</string>
+    <string name="run_failed_title">Failed apps</string>
+    <string name="run_retry">Retry %d failed</string>
+    <string name="done">Done</string>
+    <string name="stop_screen_locked">Stopped because the screen turned off or locked. Keep the screen on and try again.</string>
+    <string name="fast_failed">Fast cleaning failed. Turn fast mode off and try again.</string>
+
+    <!-- Fast mode dialogs / toasts -->
+    <string name="fast_dialog_title">Fast clean</string>
+    <string name="fast_dialog_text">Watch one ad to use fast clean today.\nPro has no ads and no limit.</string>
+    <string name="fast_dialog_watch">Watch ad and clean</string>
+    <string name="cancel">Cancel</string>
+    <string name="used_up_title">You used today\'s free fast clean</string>
+    <string name="used_up_text">Clean in normal mode, or get Pro for unlimited fast cleaning.</string>
+    <string name="used_up_normal">Normal clean</string>
+    <string name="buy_pro">Buy Pro</string>
+    <string name="toast_enable_a11y">Turn on Cache Wipe in Accessibility settings first.</string>
+    <string name="toast_nothing">No apps have cache to clear.</string>
+    <string name="toast_ad_loading">Loading the ad…</string>
+    <string name="toast_ad_closed">Watch the whole ad to use fast clean.</string>
+    <string name="toast_pro_only">Widget, quick tile and auto clean are Pro features.</string>
+    <string name="billing_unavailable">Could not reach the store. Purchases work only in the app installed from Play Store.</string>
+    <string name="billing_not_found">Could not find the product. It can be bought once the app is on the store.</string>
+
+    <!-- Overlay during cleaning -->
+    <string name="overlay_progress">Clearing cache %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">Retrying failed apps %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">Could not tap it automatically.\nPlease tap [Clear cache] on the screen</string>
+    <string name="stop">Stop</string>
+    <string name="stopping">Stopping…</string>
+
+    <!-- Notifications, tile, widget -->
+    <string name="notif_channel">Auto clean</string>
+    <string name="notif_auto_done">Auto clean: %s freed</string>
+    <string name="notif_reminder_title">Time to clear cache</string>
+    <string name="notif_reminder_text">Tap to clear the cache of all apps.</string>
+    <string name="tile_label">Clear cache</string>
+    <string name="widget_label">Clear cache</string>
+    <string name="widget_desc">One tap to clear all app cache</string>
+    <string name="diag_button">Copy support info (for bug reports)</string>
+</resources>

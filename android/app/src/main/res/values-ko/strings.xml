@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">캐시 와이프</string>
+    <string name="a11y_description">설정 앱의 [캐시 삭제] 버튼만 대신 누릅니다. 다른 화면 내용은 읽거나 저장하지 않으며, 외부로 전송하지 않습니다.</string>
+
+    <string name="disclosure_title">시작 전에 알려드려요</string>
+    <string name="disclosure_does_title">이 앱이 하는 일</string>
+    <string name="disclosure_does_body">• 설정 &gt; 앱 &gt; 저장공간 화면을 열고 [캐시 삭제] 버튼을 대신 누릅니다.\n• 앱별 캐시 크기를 보여주기 위해 \'사용정보 접근\' 권한을 씁니다.\n• 이를 위해 \'접근성\' 권한이 필요합니다.</string>
+    <string name="disclosure_doesnt_title">이 앱이 하지 않는 일</string>
+    <string name="disclosure_doesnt_body">• 설정 앱 외의 화면은 보지 않습니다.\n• 화면 내용을 저장하거나 외부로 보내지 않습니다.\n• 앱 데이터(로그인·사진·설정)는 지우지 않고 캐시만 지웁니다.</string>
+    <string name="disclosure_stop_hint">처리 중에는 화면 위쪽 [중지] 버튼으로 언제든 멈출 수 있습니다.</string>
+    <string name="disclosure_accept">동의하고 계속</string>
+
+    <string name="home_need_usage">캐시 크기를 보려면 아래 1번 권한이 필요합니다.</string>
+    <string name="home_loading">앱 캐시 크기 확인 중…</string>
+    <string name="home_total">현재 캐시 총 %s</string>
+    <string name="home_apps_with_cache">앱 %1$d개에 캐시가 있습니다 (제외 %2$d개)</string>
+    <string name="protection_on">고급 보호 모드가 켜져 있어 자동 정리를 쓸 수 없어요. 설정 &gt; 보안 및 개인정보 보호에서 잠시 끄고 사용해 주세요.</string>
+    <string name="perm_title">권한 설정이 필요해요</string>
+    <string name="perm_usage">1. 사용정보 접근 허용</string>
+    <string name="perm_a11y">2. 접근성에서 \'캐시 와이프\' 켜기</string>
+    <string name="pro_active">Pro 사용 중 · 광고 없음 · 고속 모드 무제한</string>
+    <string name="pro_upsell">광고 제거 + 고속 모드 무제한 → Pro (한 번 구매)</string>
+    <string name="fast_permission">고속 모드(Shizuku) 권한 허용</string>
+    <string name="fast_title">고속 모드 (Shizuku)</string>
+    <string name="fast_desc">시스템 앱을 포함한 전체 캐시를 몇 초 만에 정리</string>
+    <string name="clean_all">전체 캐시 삭제</string>
+    <string name="clean_all_fast">전체 캐시 삭제 (고속)</string>
+    <string name="clean_selected">선택 캐시 삭제</string>
+
+    <string name="auto_title">자동 정리 (Pro)</string>
+    <string name="auto_off">끄기</string>
+    <string name="auto_daily">매일</string>
+    <string name="auto_weekly">매주</string>
+    <string name="auto_desc">고속 모드가 켜져 있으면 알아서 정리하고, 아니면 알림으로 알려드려요.</string>
+
+    <string name="back">← 뒤로</string>
+    <string name="select_title_pick">지울 앱 선택</string>
+    <string name="select_title_exclude">전체 삭제에서 뺄 앱</string>
+    <string name="tab_selected">선택 %d</string>
+    <string name="tab_excluded">제외 %d</string>
+    <string name="select_clean">선택한 %1$d개 캐시 삭제 (%2$s)</string>
+
+    <string name="run_fast_running">고속 정리 중…</string>
+    <string name="run_running">캐시 삭제 중…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">중지했어요</string>
+    <string name="run_done">정리 완료</string>
+    <string name="run_freed">%s 확보</string>
+    <string name="run_fast_summary">시스템 앱을 포함한 모든 앱의 캐시를 정리했어요</string>
+    <string name="run_summary">삭제 %1$d개 · 이미 비어 있음 %2$d개 · 실패 %3$d개</string>
+    <string name="run_failed_title">실패한 앱</string>
+    <string name="run_retry">실패한 %d개 다시 시도</string>
+    <string name="done">완료</string>
+    <string name="stop_screen_locked">화면이 꺼지거나 잠겨서 멈췄어요. 화면을 켠 상태에서 다시 시도해 주세요.</string>
+    <string name="fast_failed">고속 정리에 실패했어요. 고속 모드를 끄고 다시 시도해 주세요.</string>
+
+    <string name="fast_dialog_title">고속 정리</string>
+    <string name="fast_dialog_text">광고 1편을 보면 오늘 고속 정리를 쓸 수 있어요.\nPro는 광고 없이 무제한이에요.</string>
+    <string name="fast_dialog_watch">광고 보고 고속 정리</string>
+    <string name="cancel">취소</string>
+    <string name="used_up_title">오늘 무료 고속 정리를 썼어요</string>
+    <string name="used_up_text">일반 모드로 정리하거나, Pro로 고속 정리를 무제한 쓸 수 있어요.</string>
+    <string name="used_up_normal">일반 모드로 정리</string>
+    <string name="buy_pro">Pro 구매</string>
+    <string name="toast_enable_a11y">접근성 설정에서 \'캐시 와이프\'를 먼저 켜 주세요.</string>
+    <string name="toast_nothing">지울 캐시가 있는 앱이 없습니다.</string>
+    <string name="toast_ad_loading">광고를 불러오는 중이에요…</string>
+    <string name="toast_ad_closed">광고를 끝까지 보면 고속 정리를 쓸 수 있어요.</string>
+    <string name="toast_pro_only">위젯·빠른 실행·자동 정리는 Pro 기능이에요.</string>
+    <string name="billing_unavailable">스토어에 연결하지 못했어요. Play 스토어에서 설치한 앱에서만 구매할 수 있어요.</string>
+    <string name="billing_not_found">구매 상품을 찾지 못했어요. 스토어 등록 후 구매할 수 있어요.</string>
+
+    <string name="overlay_progress">캐시 삭제 중 %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">실패한 앱 다시 시도 %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">자동으로 누르지 못했어요.\n화면에서 [캐시 삭제]를 직접 눌러 주세요</string>
+    <string name="stop">중지</string>
+    <string name="stopping">중지 중…</string>
+
+    <string name="notif_channel">자동 정리</string>
+    <string name="notif_auto_done">자동 정리: %s 확보</string>
+    <string name="notif_reminder_title">캐시 정리할 시간이에요</string>
+    <string name="notif_reminder_text">탭하면 모든 앱의 캐시를 정리해요.</string>
+    <string name="tile_label">캐시 정리</string>
+    <string name="widget_label">캐시 정리</string>
+    <string name="widget_desc">한 번 눌러 전체 앱 캐시 정리</string>
+    <string name="diag_button">문제 신고용 진단 정보 보내기</string>
+</resources>

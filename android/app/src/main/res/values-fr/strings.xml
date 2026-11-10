@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cache Wipe</string>
+    <string name="a11y_description">Appuie seulement à votre place sur le bouton [Vider le cache] de l\'app Paramètres. Elle ne lit ni n\'enregistre les autres écrans et n\'envoie rien hors de l\'appareil.</string>
+
+    <string name="disclosure_title">Avant de commencer</string>
+    <string name="disclosure_does_title">Ce que fait cette app</string>
+    <string name="disclosure_does_body">• Ouvre Paramètres &gt; Applications &gt; Stockage et appuie sur [Vider le cache] pour vous.\n• Utilise l\'« Accès aux données d\'utilisation » pour afficher le cache de chaque app.\n• A besoin pour cela de l\'autorisation « Accessibilité ».</string>
+    <string name="disclosure_doesnt_title">Ce que cette app ne fait pas</string>
+    <string name="disclosure_doesnt_body">• Elle ne regarde aucun écran en dehors de Paramètres.\n• Elle n\'enregistre ni n\'envoie le contenu de l\'écran.\n• Elle ne supprime jamais les données des apps (connexions, photos, réglages), seulement le cache.</string>
+    <string name="disclosure_stop_hint">Pendant le traitement, vous pouvez l\'arrêter à tout moment avec le bouton [Arrêter] en haut de l\'écran.</string>
+    <string name="disclosure_accept">Accepter et continuer</string>
+
+    <string name="home_need_usage">L\'autorisation 1 ci-dessous est nécessaire pour afficher la taille du cache.</string>
+    <string name="home_loading">Vérification du cache des apps…</string>
+    <string name="home_total">Cache total : %s</string>
+    <string name="home_apps_with_cache">Apps avec cache : %1$d (exclues : %2$d)</string>
+    <string name="protection_on">La Protection avancée est activée et bloque le nettoyage automatique. Désactivez-la un instant dans Paramètres &gt; Sécurité et confidentialité.</string>
+    <string name="perm_title">Autorisations requises</string>
+    <string name="perm_usage">1. Autoriser l\'accès aux données d\'utilisation</string>
+    <string name="perm_a11y">2. Activer Cache Wipe dans Accessibilité</string>
+    <string name="pro_active">Pro · sans publicité · mode rapide illimité</string>
+    <string name="pro_upsell">Sans publicité + mode rapide illimité → Pro (achat unique)</string>
+    <string name="fast_permission">Autoriser le mode rapide (Shizuku)</string>
+    <string name="fast_title">Mode rapide (Shizuku)</string>
+    <string name="fast_desc">Vide tout le cache, applis système comprises, en quelques secondes</string>
+    <string name="clean_all">Vider tout le cache</string>
+    <string name="clean_all_fast">Vider tout le cache (rapide)</string>
+    <string name="clean_selected">Vider le cache sélectionné</string>
+
+    <string name="auto_title">Nettoyage auto (Pro)</string>
+    <string name="auto_off">Désactivé</string>
+    <string name="auto_daily">Quotidien</string>
+    <string name="auto_weekly">Hebdo</string>
+    <string name="auto_desc">Avec le mode rapide, le nettoyage se fait en arrière-plan ; sinon vous recevez un rappel à toucher.</string>
+
+    <string name="back">← Retour</string>
+    <string name="select_title_pick">Choisir les apps à vider</string>
+    <string name="select_title_exclude">Apps ignorées par « Vider tout »</string>
+    <string name="tab_selected">Sélection %d</string>
+    <string name="tab_excluded">Exclues %d</string>
+    <string name="select_clean">Vider %1$d sélectionnées (%2$s)</string>
+
+    <string name="run_fast_running">Nettoyage rapide…</string>
+    <string name="run_running">Vidage du cache…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">Arrêté</string>
+    <string name="run_done">Terminé</string>
+    <string name="run_freed">%s libérés</string>
+    <string name="run_fast_summary">Le cache de toutes les apps, applis système comprises, a été vidé</string>
+    <string name="run_summary">Vidées %1$d · déjà vides %2$d · échecs %3$d</string>
+    <string name="run_failed_title">Apps en échec</string>
+    <string name="run_retry">Réessayer %d échecs</string>
+    <string name="done">Terminé</string>
+    <string name="stop_screen_locked">Arrêté car l\'écran s\'est éteint ou verrouillé. Gardez l\'écran allumé et réessayez.</string>
+    <string name="fast_failed">Le nettoyage rapide a échoué. Désactivez le mode rapide et réessayez.</string>
+
+    <string name="fast_dialog_title">Nettoyage rapide</string>
+    <string name="fast_dialog_text">Regardez une publicité pour utiliser le nettoyage rapide aujourd\'hui.\nPro est sans publicité et sans limite.</string>
+    <string name="fast_dialog_watch">Voir la pub et nettoyer</string>
+    <string name="cancel">Annuler</string>
+    <string name="used_up_title">Nettoyage rapide gratuit déjà utilisé aujourd\'hui</string>
+    <string name="used_up_text">Nettoyez en mode normal, ou passez à Pro pour un nettoyage rapide illimité.</string>
+    <string name="used_up_normal">Nettoyage normal</string>
+    <string name="buy_pro">Acheter Pro</string>
+    <string name="toast_enable_a11y">Activez d\'abord Cache Wipe dans les paramètres d\'Accessibilité.</string>
+    <string name="toast_nothing">Aucune app n\'a de cache à vider.</string>
+    <string name="toast_ad_loading">Chargement de la publicité…</string>
+    <string name="toast_ad_closed">Regardez la publicité jusqu\'au bout pour utiliser le nettoyage rapide.</string>
+    <string name="toast_pro_only">Le widget, le raccourci rapide et le nettoyage auto sont des fonctions Pro.</string>
+    <string name="billing_unavailable">Impossible de joindre la boutique. L\'achat n\'est possible que dans l\'app installée depuis le Play Store.</string>
+    <string name="billing_not_found">Produit introuvable. Il sera disponible une fois l\'app sur la boutique.</string>
+
+    <string name="overlay_progress">Vidage du cache %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">Nouvel essai des apps en échec %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">Impossible d\'appuyer automatiquement.\nAppuyez sur [Vider le cache] à l\'écran</string>
+    <string name="stop">Arrêter</string>
+    <string name="stopping">Arrêt…</string>
+
+    <string name="notif_channel">Nettoyage auto</string>
+    <string name="notif_auto_done">Nettoyage auto : %s libérés</string>
+    <string name="notif_reminder_title">C\'est l\'heure de vider le cache</string>
+    <string name="notif_reminder_text">Touchez pour vider le cache de toutes les apps.</string>
+    <string name="tile_label">Vider le cache</string>
+    <string name="widget_label">Vider le cache</string>
+    <string name="widget_desc">Videz le cache de toutes les apps en un geste</string>
+</resources>

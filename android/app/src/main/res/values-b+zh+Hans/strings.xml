@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">缓存清理</string>
+    <string name="a11y_description">仅代您点击“设置”应用中的[清除缓存]按钮。不会读取或保存其他界面内容，也不会向外发送任何数据。</string>
+
+    <string name="disclosure_title">开始之前</string>
+    <string name="disclosure_does_title">本应用会做什么</string>
+    <string name="disclosure_does_body">• 打开 设置 &gt; 应用 &gt; 存储，并代您点击[清除缓存]。\n• 使用“使用情况访问权限”显示每个应用的缓存大小。\n• 为此需要“无障碍”权限。</string>
+    <string name="disclosure_doesnt_title">本应用不会做什么</string>
+    <string name="disclosure_doesnt_body">• 不查看“设置”以外的任何界面。\n• 不保存或发送界面内容。\n• 绝不删除应用数据（登录、照片、设置），只清除缓存。</string>
+    <string name="disclosure_stop_hint">运行期间可随时点击屏幕顶部的[停止]按钮中止。</string>
+    <string name="disclosure_accept">同意并继续</string>
+
+    <string name="home_need_usage">需要下方第 1 项权限才能显示缓存大小。</string>
+    <string name="home_loading">正在检查应用缓存大小…</string>
+    <string name="home_total">缓存总计：%s</string>
+    <string name="home_apps_with_cache">有缓存的应用：%1$d 个（已排除 %2$d 个）</string>
+    <string name="protection_on">“高级保护”已开启，无法自动清理。请在 设置 &gt; 安全和隐私 中暂时关闭。</string>
+    <string name="perm_title">需要权限</string>
+    <string name="perm_usage">1. 允许使用情况访问权限</string>
+    <string name="perm_a11y">2. 在无障碍中开启“缓存清理”</string>
+    <string name="pro_active">Pro · 无广告 · 快速模式不限次数</string>
+    <string name="pro_upsell">去除广告 + 快速模式不限次数 → Pro（一次性购买）</string>
+    <string name="fast_permission">允许快速模式（Shizuku）</string>
+    <string name="fast_title">快速模式（Shizuku）</string>
+    <string name="fast_desc">几秒内清除包括系统应用在内的全部缓存</string>
+    <string name="clean_all">清除全部缓存</string>
+    <string name="clean_all_fast">清除全部缓存（快速）</string>
+    <string name="clean_selected">清除所选缓存</string>
+
+    <string name="auto_title">自动清理（Pro）</string>
+    <string name="auto_off">关闭</string>
+    <string name="auto_daily">每天</string>
+    <string name="auto_weekly">每周</string>
+    <string name="auto_desc">开启快速模式时会在后台自动清理，否则发送提醒通知。</string>
+
+    <string name="back">← 返回</string>
+    <string name="select_title_pick">选择要清除的应用</string>
+    <string name="select_title_exclude">“全部清除”时跳过的应用</string>
+    <string name="tab_selected">已选 %d</string>
+    <string name="tab_excluded">已排除 %d</string>
+    <string name="select_clean">清除所选 %1$d 个（%2$s）</string>
+
+    <string name="run_fast_running">正在快速清理…</string>
+    <string name="run_running">正在清除缓存…</string>
+    <string name="run_progress">%1$d / %2$d  %3$s</string>
+    <string name="run_stopped">已停止</string>
+    <string name="run_done">清理完成</string>
+    <string name="run_freed">释放了 %s</string>
+    <string name="run_fast_summary">已清除包括系统应用在内的所有应用缓存</string>
+    <string name="run_summary">已清除 %1$d · 原本为空 %2$d · 失败 %3$d</string>
+    <string name="run_failed_title">失败的应用</string>
+    <string name="run_retry">重试 %d 个失败项</string>
+    <string name="done">完成</string>
+    <string name="stop_screen_locked">屏幕已关闭或锁定，因此已停止。请保持屏幕开启后重试。</string>
+    <string name="fast_failed">快速清理失败。请关闭快速模式后重试。</string>
+
+    <string name="fast_dialog_title">快速清理</string>
+    <string name="fast_dialog_text">观看 1 个广告即可在今天使用快速清理。\nPro 无广告且不限次数。</string>
+    <string name="fast_dialog_watch">观看广告并清理</string>
+    <string name="cancel">取消</string>
+    <string name="used_up_title">今天的免费快速清理已用完</string>
+    <string name="used_up_text">可以用普通模式清理，或购买 Pro 不限次数使用快速清理。</string>
+    <string name="used_up_normal">普通清理</string>
+    <string name="buy_pro">购买 Pro</string>
+    <string name="toast_enable_a11y">请先在无障碍设置中开启“缓存清理”。</string>
+    <string name="toast_nothing">没有可清除缓存的应用。</string>
+    <string name="toast_ad_loading">正在加载广告…</string>
+    <string name="toast_ad_closed">完整观看广告后即可使用快速清理。</string>
+    <string name="toast_pro_only">小部件、快捷开关和自动清理为 Pro 功能。</string>
+    <string name="billing_unavailable">无法连接商店。只有从 Play 商店安装的应用才能购买。</string>
+    <string name="billing_not_found">找不到该商品。应用上架后即可购买。</string>
+
+    <string name="overlay_progress">正在清除缓存 %1$d/%2$d\n%3$s</string>
+    <string name="overlay_retry">重试失败的应用 %1$d/%2$d\n%3$s</string>
+    <string name="overlay_manual">无法自动点击。\n请在屏幕上点击[清除缓存]</string>
+    <string name="stop">停止</string>
+    <string name="stopping">正在停止…</string>
+
+    <string name="notif_channel">自动清理</string>
+    <string name="notif_auto_done">自动清理：释放了 %s</string>
+    <string name="notif_reminder_title">该清理缓存了</string>
+    <string name="notif_reminder_text">点按即可清除所有应用的缓存。</string>
+    <string name="tile_label">清除缓存</string>
+    <string name="widget_label">清除缓存</string>
+    <string name="widget_desc">一键清除所有应用缓存</string>
+</resources>

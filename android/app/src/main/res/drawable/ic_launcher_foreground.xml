@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- open ring (wipe) -->
+    <path android:pathData="M54,32 A22,22 0 1 1 34.9,43"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="6" android:strokeLineCap="round" />
+    <!-- sparkle (clean) -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M54,42 Q54,54 66,54 Q54,54 54,66 Q54,54 42,54 Q54,54 54,42 Z" />
+</vector>
